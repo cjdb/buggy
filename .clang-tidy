@@ -35,6 +35,7 @@ Checks: '
   -llvm*,
   -misc-confusable-identifiers,
   -misc-const-correctness,
+  -misc-misplaced-const,
   -misc-non-private-member-variables-in-classes,
   -misc-unconventional-assign-operator,
   -modernize-avoid-c-arrays,

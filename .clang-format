@@ -109,7 +109,7 @@ PenaltyBreakString: 10
 PenaltyBreakTemplateDeclaration: 10
 PenaltyExcessCharacter: 10
 PenaltyIndentedWhitespace: 10
-PenaltyReturnTypeOnItsOwnLine: 10
+PenaltyReturnTypeOnItsOwnLine: 10000
 PointerAlignment: Left
 QualifierAlignment: Custom
 QualifierOrder: ['static', 'inline', 'constexpr', 'type', 'const', 'volatile', 'restrict']

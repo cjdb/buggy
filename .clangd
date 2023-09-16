@@ -1,9 +1,8 @@
 CompileFlags:
   Add:
-    - -std=c++2b
+    - -std=c++23
+    - -stdlib=libc++
     - -ferror-limit=0
-    - -nostdinc++
-    - -nostdlib++
     - -Iinclude
     - -pedantic
     - -Werror
@@ -23,8 +22,6 @@ CompileFlags:
     - -Wodr
     - -Wattributes
     - -Wnull-dereference
-  Remove:
-    - -fmodules
 Diagnostics:
   UnusedIncludes: None
   MissingIncludes: None

@@ -81,8 +81,8 @@ jobs:
             -DCMAKE_TOOLCHAIN_FILE=`pwd`/vcpkg/scripts/buildsystems/vcpkg.cmake                          \
             -DVCPKG_CHAINLOAD_TOOLCHAIN_FILE=`pwd`/config/cmake/toolchains/${{ matrix.toolchain }}.cmake \
             -DVCPKG_TARGET_TRIPLET=${{ matrix.toolchain }}                                               \
-            -DTODO_RENAME_ME_ENABLE_CLANG_TIDY=${ENABLE_CLANG_TIDY}                                      \
-            -DTODO_RENAME_ME_CLANG_TIDY_PATH=${{ matrix.clang_tidy_path }}
+            -DBUGGY_ENABLE_CLANG_TIDY=${ENABLE_CLANG_TIDY}                                      \
+            -DBUGGY_CLANG_TIDY_PATH=${{ matrix.clang_tidy_path }}
 
       - name: Build
         id: build

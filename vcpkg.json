@@ -1,9 +1,13 @@
 {
-    "name": "project-template",
-    "version-string": "LIVE_AT_HEAD",
-    "homepage": "https://github.com/cjdb/project_template.git",
-    "description": "A new project template",
-    "dependencies": [
-        "catch2"
-    ]
+  "name": "buggy",
+  "version-string": "LIVE_AT_HEAD",
+  "homepage": "https://github.com/cjdb/project_template.git",
+  "description": "A flashy game engine, named after Buggy D. Clown",
+  "dependencies": [
+    "catch2",
+    "constexpr-contracts",
+    "glfw3",
+    "glm",
+    "vulkan"
+  ]
 }

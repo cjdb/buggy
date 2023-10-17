@@ -13,6 +13,18 @@ cxx_library(
   LINK_TARGETS Vulkan::Vulkan cjdb::constexpr-contracts
   DEFINITIONS GLFW_INCLUDE_VULKAN BUGGY_VULKAN_GRAPHICS
 )
+
+cxx_library(
+  TARGET physical_device
+  FILENAME physical_device.cpp
+  LINK_TARGETS Vulkan::Vulkan
+)
+cxx_library(
+  TARGET device
+  FILENAME device.cpp
+  LINK_TARGETS glfw Vulkan::Vulkan
+)
+
 cxx_binary(
   TARGET xtest
   FILENAME test.cpp
